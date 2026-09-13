@@ -499,3 +499,87 @@
   font-family: sans-serif;
 }
 /*  end Testimonials */
+/*  start blog */
+.blog {
+  height: 190vh;
+  background-color: var(--secondary-color);
+}
+.part1-blog {
+  text-align: center;
+  padding-top: 70px;
+}
+.h2-blog,
+.h1-blog,
+.p-blog {
+  padding-bottom: 20px;
+}
+.h2-blog {
+  color: var(--color);
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.h1-blog {
+  font-weight: 500;
+}
+.p-blog {
+  line-height: 1.7;
+  word-spacing: 2px;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: gray;
+  margin-bottom: 30px;
+}
+.part2-blog {
+  display: flex;
+  justify-content: center;
+}
+.card-blog {
+  background-color: var(--white);
+  margin: 10px;
+  width: 370px;
+  height: 690px;
+  border-radius: 20px;
+  transition: 0.4s ease;
+}
+.card-blog:hover {
+  transform: translateY(-10px);
+  z-index: 1;
+}
+.img-blog {
+  width: 100%;
+  height: 40%;
+  border-radius: 8px;
+}
+.date,
+.word2 {
+  padding: 30px 20px;
+  display: inline-block;
+}
+.h1-one {
+  text-align: center;
+  margin: 20px;
+  font-weight: 500;
+}
+.p2-blog {
+  line-height: 1.7;
+  word-spacing: 2px;
+  font-weight: 400;
+  font-size: 1.3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: gray;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.a-blog {
+  color: var(--color);
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  margin: 30px;
+}
+.a-blog:hover {
+  color: var(--text-dark);
+}
+/*  end blog */
