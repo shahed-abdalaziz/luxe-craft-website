@@ -787,3 +787,117 @@ textarea:focus {
 }
 
 /*  end contact */
+/*  start footer */
+.footer {
+    height: 70vh;
+    background-color: black;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+.h1-footer,
+.h4-footer {
+    color: var(--color);
+    text-transform: uppercase;
+}
+.h4-footer {
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.h1-footer {
+    font-weight: 900;
+    font-size: 2.3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    letter-spacing: 3px;
+}
+.p-footer {
+    line-height: 1.7;
+    word-spacing: 2px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: gray;
+    margin-bottom: 30px;
+}
+.h3-foot {
+    color: var(--white);
+    position: relative;
+}
+.h3-foot::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #c9a96e;
+    position: absolute;
+    top: 24px;
+    left: 14%;
+    transform: translateX(-50%);
+}
+.a-foot {
+    color: var(--white);
+    opacity: 0.7;
+    transition: 0.4s ease;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: block;
+}
+.a-foot:hover {
+    color: var(--color);
+    transform: translateX(-7px);
+}
+.a-foot,
+.h3-foot {
+    padding-bottom: 14px;
+}
+.social-footer {
+    padding-bottom: 80px;
+}
+.social-footer a {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #2a2a2a;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 7px;
+    color: #c9a96e;
+    transition: 0.3s;
+    font-size: 24px;
+}
+.social-footer a:hover {
+    transform: translateY(-7px);
+    color: #2a2a2a;
+    background-color: var(--color);
+}
+.p-leftfoot {
+    color: white;
+    opacity: 0.7;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.right-foot {
+    display: flex;
+    justify-content: end;
+}
+.right-foot ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-right: 44px;
+    padding-bottom: 30px;
+}
+.right-foot ul li a {
+    text-decoration: none;
+    color: var(--white);
+    opacity: 0.7;
+    font-size: 1.2rem;
+}
+.right-foot ul li a:hover {
+    color: var(--color);
+}
+/* end footer */
