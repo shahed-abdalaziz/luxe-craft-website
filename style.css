@@ -79,3 +79,74 @@
   width: 80%;
 }
 /* end navbar */
+/* start hero */
+.hero {
+  padding-top: 110px;
+  height: 80vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./imgs/architecture.jpg");
+  background-size: cover;
+}
+.hero-h1 {
+  color: var(--background-color);
+  line-height: 1.3;
+}
+.spaces {
+  color: var(--color);
+}
+.hero-h1,
+.spaces {
+  font-size: 4rem;
+  margin-left: 24px;
+}
+.hero-p {
+  margin-top: 20px;
+  color: var(--background-color);
+  margin-left: 24px;
+  font-family: var(--font-family);
+  font-size: 27px;
+}
+.button-1 {
+  display: inline;
+  margin: 40px;
+  padding: 12px 20px;
+  background: linear-gradient(
+    135deg,
+    rgb(212, 175, 55) 0px,
+    rgb(244, 208, 63) 100%
+  );
+  border: 1px solid rgba(255, 255, 0, 0.7);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: var(--background-color);
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.button-1:hover {
+  background: linear-gradient(
+    135deg,
+    rgb(212, 175, 55) 0px,
+    rgb(244, 208, 63) 100%
+  );
+  opacity: 0.4;
+  transform: translatey(-4px);
+}
+.button-2 {
+  display: inline;
+  padding: 17px 30px;
+  background: transparent;
+  border: 2px solid var(--background-color);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: var(--background-color);
+}
+.button-2:hover {
+  transform: translatey(-4px);
+  color: black;
+  background-color: var(--background-color);
+}
+/* end hero */
