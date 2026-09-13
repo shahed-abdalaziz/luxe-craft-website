@@ -19,3 +19,63 @@
     rgba(212, 165, 116, 0.3)
   );
 }
+
+/* start navbar */
+
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  position: fixed;
+  background-color: var(--background-color);
+  z-index: 2;
+  box-shadow: 1px 1px 4px 4px gray;
+}
+.side-title,
+.nav-link {
+  margin: 60px;
+}
+.side-title h2 {
+  color: #c9a96e;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.side-title h4 {
+  color: #c9a96e;
+}
+
+.nav-link ul {
+  display: flex;
+
+  list-style-type: none;
+}
+
+.nav-link ul li a {
+  text-decoration: none;
+
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+
+  padding: 4px 14px;
+  position: relative;
+}
+
+.nav-link ul li a::after {
+  content: "";
+  position: absolute;
+
+  height: 3px;
+  background: #c9a96e;
+  transition: 0.3s;
+  width: 0;
+  bottom: -10px;
+  left: 10%;
+}
+.nav-link ul li a:hover::after {
+  width: 80%;
+}
+/* end navbar */
